@@ -7,7 +7,7 @@ class MenuBar(wx.MenuBar):
         filemenu = wx.Menu()
         filemenu.Append(wx.ID_OPEN, '&Open it', 'Open a file')
         filemenu.Append(wx.ID_SAVE, '&Save me', 'Save a file')
-        filemenu.Append(wx.ID_EXIT, '&Quit it', 'Quit application')
+        filemenu.Append(wx.ID_EXIT, 'Quit it', 'Quit application')
 
         self.Append(filemenu, '&File')
 

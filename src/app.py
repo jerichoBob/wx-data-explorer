@@ -6,10 +6,11 @@ class MyApp(wx.App):
         self.frame = MainFrame(None, title="wx-data-explorer")
         self.SetTopWindow(self.frame)
         self.frame.Show()
+        wx.InitAllImageHandlers()   
         return True
 
 if __name__ == "__main__":
-    app = MyApp()
+    app = MyApp() 
     app.MainLoop()
 
 

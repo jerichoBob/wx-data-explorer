@@ -4,7 +4,6 @@ from .menubar import MenuBar
 from .toolbar import ToolBar
 from .statusbar import StatusBar
 # 
-
 class MainFrame(wx.Frame):
     def __init__(self, parent, title):
         super(MainFrame, self).__init__(parent, title=title, size=(800,600))
@@ -56,3 +55,4 @@ class MainFrame(wx.Frame):
         # Close the application
         self.Close()
 
+#
