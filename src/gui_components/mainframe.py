@@ -3,6 +3,7 @@ from wx import ID_OPEN, ID_SAVE, ID_EXIT
 from .menubar import MenuBar
 from .toolbar import ToolBar
 from .statusbar import StatusBar
+# 
 
 class MainFrame(wx.Frame):
     def __init__(self, parent, title):
